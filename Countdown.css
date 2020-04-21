@@ -1,0 +1,164 @@
+body{
+		padding:0px;
+		margin:0px;
+		font-family:Cinzel;
+		}
+.top{
+		display:flex;
+		justify-content:center;
+		}
+.hours_now, .minutes_now{
+		font-size:25px;
+		text-align:center;
+		padding:15px;
+		color:#6f4988;
+		}
+.middle{
+		align-self:center;
+		font-size:25px;
+		color:#6f4988;
+		}
+.today{
+		background-color:#6f4988;
+		color:white;
+		font-size:35px;
+		padding:15px;
+		text-align:center;
+		margin:.5pc auto 3pc auto;
+		border:3px double lightblue;
+		}
+.todays_date{
+		font-size:18px;
+		}
+.with{
+		background-color:#6f4988;
+		color:white;
+		width:175px;
+		text-align:center;
+		font-size:22px;
+		padding:10px;
+		margin:auto;
+		border:3px double lightblue;
+		}
+.all{
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:space-evenly;
+		padding:5px;
+		}
+.one, .two, .three, .four{
+		width:40%;
+		margin:10px;
+		}
+.for_days, .for_hours, .for_minutes, .for_seconds{
+		font-size:27px;
+		width:100%;
+		background-color:#6f4988;
+		padding:7px 0px;
+		text-align:center;
+		color:white;
+		}
+.days_date00, .hours_date00, .minutes_date00, .seconds_date00{
+		background-color:#1a4395;
+		padding:10px;
+		}
+.days_date11, .hours_date11, .minutes_date11, .seconds_date11{
+		background-color:#426a8d;
+		display:flex;
+		justify-content:space-around;
+		padding:20px;
+		overflow:scroll;
+		}
+.days_date22, .hours_date22, .minutes_date22, .seconds_date22{
+		background-color:#bd98fe;
+		width:auto;
+		padding:10px;
+		font-size:50px;
+		border-right:8px solid #426a8d;
+		animation:appear 2s ease-in forwards;
+		}
+.days_date22, .days_date33{
+		border-right:2px solid #426a8d;
+		}
+.days_date33, .days_date44, .hours_date33, .minutes_date33,.seconds_date33{
+		background-color:#6bbdc5;
+		padding:10px;
+		font-size:50px;
+		animation:appear 2s ease-in forwards;
+		}
+.days_date44{
+		background-color:lightskyblue;
+		}		
+.remain{
+		background-color:#6bbdca;
+		font-size:30px;
+		text-align:center;
+		margin-top:3pc;
+		padding:10px;
+		border:3px solid lightskyblue;
+		}
+@keyframes appear{
+		0%{opacity:0;}
+		100%{opacity:1;}
+		}
+.special11{
+		margin:2pc auto;
+		padding:20px;
+		text-align:center;
+		}
+#expire{
+		margin:-1.5pc auto;
+		padding:20px;
+		text-align:center;
+		}		
+.top{
+		display:flex;
+		justify-content:center;
+		}
+.hours_now, .minutes_now{
+		font-size:25px;
+		text-align:center;
+		padding:15px;
+		}
+.middle{
+		align-self:center;
+		font-size:25px;
+  	}
+.t{
+		font-size:45px;
+		}
+.r{
+		font-size:35px;
+		font-family:"cursive";
+		}
+.t2{
+		font-size:23px;
+		font-family:"cursive";
+		}
+
+
+
+/* MEDIA QUERY BEGINS */
+
+@media(min-width:768px){
+.today{
+		width:45%;
+		}		
+.one, .two, .three, .four{
+		width:12%;
+		}
+.days_date11, .hours_date11, .minutes_date11, .seconds_date11{
+		overflow:hidden;
+		}
+.remain{
+		width:40%;
+		margin:auto;
+		}		
+.special11{
+		margin-top:0.5pc;
+		}		
+				
+}
+
+/* MEDIA QUERY ENDS */
+
