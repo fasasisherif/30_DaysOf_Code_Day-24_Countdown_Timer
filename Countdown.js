@@ -33,7 +33,7 @@ var seconds_date33 = document.getElementsByClassName("seconds_date33")
 /* WHEREAS, IF I DIDN'T ADD IT, IT WOULD GET THE TIME IN EXACTLY THIS FORMAT "Tue Apr 21 2020 14:08:17 GMT+0100 (West Africa Standard Time)" 
 */
 
-var count_down_date = new Date("apr 27 2020 00:00:00").getTime();	
+var count_down_date = new Date("may 4 2020 00:00:00").getTime();	
 
 
 /* I THEN DECLARE A FUNCTION WHERE I'LL BE DOING MOST OF THE WORK. IF YOU NOTICE, YOU'LL SEE THAT FOR THIS PROJECT, THE RESULT NEEDS TO BE UPDATED EVERY SECONDS BCOS IT'S A 'countdown timer' AND WE USE 'setInterval' WHICH IS PERFECT FOR THIS 
